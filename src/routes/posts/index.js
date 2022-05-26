@@ -3,7 +3,7 @@ import GhostContentAPI from "@tryghost/content-api";
 // Fetch all valid posts & authors to display in the homepage
 export async function get() {
     const api = new GhostContentAPI({
-        url: "https://brian.dev",
+        url: "https://content.brian.dev",
         key: 'd530b63612972c36c8f324d61f',
         version: "v3",
       });
