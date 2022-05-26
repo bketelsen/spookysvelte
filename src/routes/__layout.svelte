@@ -30,6 +30,18 @@
 
 <svelte:head>
   <title>{settings.title}</title>
+  <link
+  rel="icon"
+  type="image/png"
+  sizes="192x192"
+  href="/icon-192x192.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="512x512"
+  href="/icon-512x512.png"
+/>
 </svelte:head>
 
 <aside

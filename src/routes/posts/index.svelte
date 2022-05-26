@@ -3,12 +3,14 @@
 </script>
 <script>
     import Card from "../../lib/posts/Card.svelte";
+    import { page } from "$app/stores";
+  const { settings } = $page.stuff;
 	export let posts;
 </script>
 
 <svelte:head>
-  <title>Blog</title>
-  <meta name="description" content="Svelte demo app" />
+  <title>Home | {settings.title}</title>
+  <meta name="description" content="{settings.description}" />
 </svelte:head>
 
 <div
