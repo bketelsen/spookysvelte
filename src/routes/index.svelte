@@ -33,16 +33,16 @@
     <div class="flex flex-wrap">
 
       <Role title="Developer Advocate"
-        description="Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche."
+        description="Representing the interests of the community to internal teams. Teaching, listening, and sharing."
         url="/pages/devrel" />
       <Role title="Keynote Speaker"
-        description="Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche."
+        description=""
         url="/pages/speaking" />
         <Role title="Open Source Contributor"
-        description="Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche."
+        description="Go, Kubernetes, etcd, Krustlet, Virtual Kubelet, Neovim, SkyDNS, goa, Ponzu, Athens..."
         url="/pages/open-source" />
         <Role title="Engineering Leader"
-        description="Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche."
+        description="From teams of 5 to teams of 200, I lead engineering teams to deliver the best products and services."
         url="/pages/leadership" />
     </div>
 
