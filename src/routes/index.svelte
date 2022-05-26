@@ -34,16 +34,16 @@
 
       <Role title="Developer Advocate"
         description="Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche."
-        url="#" />
+        url="/pages/devrel" />
       <Role title="Keynote Speaker"
         description="Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche."
-        url="#" />
+        url="/pages/speaking" />
         <Role title="Open Source Contributor"
         description="Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche."
-        url="#" />
+        url="/pages/open-source" />
         <Role title="Engineering Leader"
         description="Fingerstache flexitarian street art 8-bit waistcoat. Distillery hexagon disrupt edison bulbche."
-        url="#" />
+        url="/pages/leadership" />
     </div>
 
     <a href="#recent"
