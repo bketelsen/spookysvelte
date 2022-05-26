@@ -2,7 +2,7 @@ import GhostContentAPI from "@tryghost/content-api";
 
 
 const api = new GhostContentAPI({
-    url: "https://www.brian.dev",
+    url: "https://content.brian.dev",
     key: 'd530b63612972c36c8f324d61f',
     version: "v3",
 });
