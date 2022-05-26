@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content=""><title>Bash Helpers for Quick Installs | Brian Ketelsen</title><meta name="description" content="This bash setup is the latest evolution of my quest to make a new system install as fast as possible." data-svelte="svelte-vst9xl">
+	<link rel="stylesheet" href="/_app/assets/pages/__layout.svelte-24b966e1.css">
+	<link rel="modulepreload" href="/_app/start-c742949e.js">
+	<link rel="modulepreload" href="/_app/chunks/index-903c2de0.js">
+	<link rel="modulepreload" href="/_app/pages/__layout.svelte-b208d1d7.js">
+	<link rel="modulepreload" href="/_app/chunks/stores-4a3ff360.js">
+	<link rel="modulepreload" href="/_app/pages/posts/_slug_.svelte-cb77a9a7.js">
+	<link rel="modulepreload" href="/_app/chunks/PageTitle-e5125eb9.js">
+	<link rel="modulepreload" href="/_app/chunks/PrimaryTag-6b8548c8.js">
+	</head>
+	<body>
+		<div>
+
+
+
+
+<aside class="absolute z-40 w-full h-full transition duration-500 ease-in-out transform bg-neutral-focus -left-full"><div class="flex flex-col text-xl text-neutral-content"><a href="/" class="btn btn-ghost btn-sm rounded-btn">Home</a><a href="/pages/about/" class="btn btn-ghost btn-sm rounded-btn">About</a><a href="/pages/uses/" class="btn btn-ghost btn-sm rounded-btn">Uses</a><a href="/pages/now/" class="btn btn-ghost btn-sm rounded-btn">Now</a></div></aside>
+<div class="flex h-screen flex-col justify-between"><nav class="navbar bg-neutral text-neutral-content"><div class="flex-none"><button class="z-50 btn btn-square btn-ghost lg:hidden"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-10 h-10 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg></button></div>
+    <div class="items-center flex-1"><div class="px-2 pb-2 mx-2 flex-0"><a class="text-3xl font-bold text-primary" href="/"><img class="w-30 h-10" src="/_app/assets/brian-dark-55ba719d.svg" alt="brian ketelsen"></a></div>
+      <div class="flex-1 hidden px-2 mx-2 lg:block"><div class="items-stretch"><a href="/" class="btn btn-ghost btn-sm rounded-btn">Home</a><a href="/pages/about/" class="btn btn-ghost btn-sm rounded-btn">About</a><a href="/pages/uses/" class="btn btn-ghost btn-sm rounded-btn">Uses</a><a href="/pages/now/" class="btn btn-ghost btn-sm rounded-btn">Now</a></div></div></div>
+    <div class="flex-none"><div class="z-30 dropdown dropdown-left"><div tabindex="0" class="btn btn-ghost"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current md:mr-2"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>
+    <span class="hidden md:block">Theme</span></div>
+  <ul tabindex="0" class="pb-2 shadow menu dropdown-content bg-neutral-focus w-52"><li><button class="mx-4 mt-2 btn btn-primary" data-set-theme="cyberpunk" data-act-class="ACTIVECLASS">cyberpunk</button>
+      </li><li><button class="mx-4 mt-2 btn btn-primary" data-set-theme="dark" data-act-class="ACTIVECLASS">dark</button>
+      </li><li><button class="mx-4 mt-2 btn btn-primary" data-set-theme="dracula" data-act-class="ACTIVECLASS">dracula</button>
+      </li><li><button class="mx-4 mt-2 btn btn-primary" data-set-theme="light" data-act-class="ACTIVECLASS">light</button>
+      </li></ul></div></div></nav>
+  <main class="mb-auto">
+<div class="mx-auto max-w-3xl px-4 sm:px-6 xl:max-w-5xl xl:px-0"><article><div class="xl:divide-y xl:divide-gray-200 xl:dark:divide-gray-700"><header class="pt-6 xl:pb-6"><div class="space-y-1 text-center"><dl class="space-y-10"><div><dt class="sr-only">Published on</dt>
+              <dd class="text-base font-medium leading-6 text-primary"><time datetime="2020-08-14T00:00:00.000-04:00">Friday, August 14, 2020</time></dd></div></dl>
+          <div><h1 class="text-3xl font-extrabold leading-9 tracking-tight text-base-content sm:text-4xl sm:leading-10 md:text-5xl md:leading-14">Bash Helpers for Quick Installs</h1></div></div></header>
+      <div class="divide-y divide-base-200 pb-8 xl:grid xl:grid-cols-4 xl:gap-x-6 xl:divide-y-0" style="grid-template-rows: auto 1fr;"><dl class="pt-6 pb-10 xl:border-b xl:border-base-200 xl:pt-11 "><dt class="sr-only">Authors</dt><dd><ul class="flex justify-center space-x-8 sm:space-x-12 xl:block xl:space-x-0 xl:space-y-8"><li class="flex items-center space-x-2" key="Brian Ketelsen"><img src="https://brian.dev/content/images/2022/05/logo-copy-1.png" width="38px" height="38px" alt="avatar" class="h-10 w-10 rounded-full">
+                <dl class="whitespace-nowrap text-sm font-medium leading-5"><dt class="sr-only">Name</dt><dd class="text-base-content ">Brian Ketelsen
+                  </dd><dt class="sr-only">Twitter</dt><dd><a href="https://twitter.com/@bketelsen" class="text-accent hover:text-primary">@bketelsen</a></dd></dl></li></ul></dd></dl>
+        <div class="divide-y divide-base-200 xl:col-span-3 xl:row-span-2 xl:pb-0"><div class="prose prose-lg max-w-none pt-10 pb-8"><img class="rounded-md shadow-xl" src="https://brian.dev/content/images/2022/05/4pPzKfd6BEg.jpg" alt="Bash Helpers for Quick Installs">
+            <!-- HTML_TAG_START --><!--kg-card-begin: markdown--><h2 id="speed-up-software-installs-with-this-bash-trick">Speed Up Software Installs with this Bash Trick</h2>
+<p>I've created a <code>bash</code> function that enables quick software installs without being as heavy as something like <code>ansible</code>. The system relies on a single function in my <code>bashrc</code> and a directory full of bash scripts. Let's dive in and see how it works.</p>
+<h3 id="installation-scripts">Installation Scripts</h3>
+<p>In my dotfiles directory, which is stored at <code>~/dotfiles</code> there's a subdirectory called <code>install</code>. That directory contains a few dozen bash scripts that install the various software components and packages I might use. Some of them are needed on all the computers I use, some of them are used only infrequently for certain projects. Here's an example that installs Go:</p>
+<pre><code class="language-bash">❯ go.sh
+#! /bin/bash
+set -e
+VERSION=1.15
+# Delete existing Go installation
+sudo rm -rf /usr/local/go
+# Install Go in /usr/local
+sudo mkdir -p /usr/local/go &amp;&amp; curl -Ls https://storage.googleapis.com/golang/go$VERSION.linux-amd64.tar.gz | sudo tar xvzf - -C /usr/local/go --strip-components=1
+</code></pre>
+<p>The script declares a <code>VERSION</code> variable so I can change the version to be installed when there's a new release of Go. Then it deletes the existing Go installation and replaces it with a freshly downloaded version. Because it deletes the existing install and replaces it, it can be run more than once with no unwanted side-effects. I've attempted to make all my scripts idempotent like this, but some of them just aren't because my bash skills are just mediocre.</p>
+<h3 id="installation-function">Installation Function</h3>
+<p>To use these installation scripts I've created a bash function that searches for scripts in the <code>~/dotfiles/install</code> folder matching the first argument of the function:</p>
+<pre><code class="language-bash">inst() {
+	if [ -f $HOME/dotfiles/install/$1.sh ] ; then
+		echo Installing $1
+		. $HOME/dotfiles/install/$1.sh
+	else
+		echo $1 not found
+	fi
+}
+</code></pre>
+<p>To install Go using this function I would type <code>$&gt; inst go</code>, which would search for a script called <code>~/dotfiles/install/go.sh</code> and execute it if it exists. It's not complicated, and only took a few minutes to write the function, but I'm getting a lot of ROI on the time I spend writing installation scripts. When I spin up a new VM somewhere, I can quickly clone my dotfiles and install just the bits I need for a particular task.</p>
+<h3 id="direnv-integration">Direnv integration</h3>
+<p>I've been playing with <code>direnv</code> integrations to make the installation of required tools or commands automatic when entering a project directory. I haven't found anything yet that doesn't feel too &quot;hacky&quot;, so I haven't finished this part.</p>
+<h2 id="future-ideas">Future Ideas</h2>
+<p>In the future I may extend the script to search for installation scripts with an <code>arch</code> component in the file path, like <code>~/dotfiles/install/linux/go.sh</code> or <code>~/dotfiles/install/macos/go.sh</code>. I don't have a need for this right now because I'm not using my Mac for development work.</p>
+<p>I may also consider making <code>meta</code> scripts that call others. It might be similar to installing a Development metapackage, where the metapackage simply calls the other packages it wants to wrap.</p>
+<!--kg-card-end: markdown--><!-- HTML_TAG_END --></div></div>
+        <footer><div class="divide-y divide-gray-200 pb-8 dark:divide-gray-700 xl:grid xl:grid-cols-1 xl:gap-x-1 xl:divide-y-0"><div class="py-4 xl:py-8"><h2 class="mb-2 text-xs uppercase tracking-wide text-base-content">Tags
+              </h2>
+              <div class="flex flex-wrap"><div class="ml-2 badge badge-primary">Linux</div></div></div>
+            </div>
+          <div class="pt-4 xl:pt-8"><a href="/posts" class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400">← Back to the blog
+            </a></div></footer></div></div></article></div></main>
+  <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded"><div class="grid grid-flow-col gap-4"><a href="/pages/about/" class="btn btn-ghost btn-sm rounded-btn">About Brian</a><a href="/pages/now/" class="btn btn-ghost btn-sm rounded-btn">Now</a><a href="/pages/uses/" class="btn btn-ghost btn-sm rounded-btn">Uses</a></div>
+    <div><div class="grid grid-flow-col gap-4"><a href="https://twitter.com/bketelsen"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a>
+        <a href="https://youtube.com/bketelsen"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a>
+        <a href="https://facebook.com/bketelsen"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a></div></div>
+    <div><p>Copyright © 2022 - All right reserved by Brian Ketelsen</p></div></footer></div>
+
+
+		<script type="module" data-sveltekit-hydrate="1lp9ugc">
+		import { start } from "/_app/start-c742949e.js";
+		start({
+			target: document.querySelector('[data-sveltekit-hydrate="1lp9ugc"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [
+					import("/_app/pages/__layout.svelte-b208d1d7.js"),
+						import("/_app/pages/posts/_slug_.svelte-cb77a9a7.js")
+				],
+				params: {slug:"bash-helpers-for-quick-installs"},
+				routeId: "posts/[slug]"
+			}
+		});
+	</script><script type="application/json" sveltekit:data-type="data" sveltekit:data-url="/settings">{"status":200,"statusText":"","headers":{"content-type":"application/json; charset=utf-8"},"body":"{\"settings\":{\"title\":\"Brian Ketelsen\",\"description\":\"Developer advocate, keynote speaker, author, open source practitioner.\",\"logo\":\"https://brian.dev/content/images/2022/05/brian-light.svg\",\"icon\":\"https://brian.dev/content/images/2022/05/android-chrome-192x192.png\",\"accent_color\":\"#FF1A75\",\"cover_image\":\"https://brian.dev/content/images/2022/05/logo-copy.png\",\"facebook\":\"bketelsen\",\"twitter\":\"@bketelsen\",\"lang\":\"en\",\"locale\":\"en\",\"timezone\":\"America/New_York\",\"codeinjection_head\":\"\u003Cscript>\\n\\tvar apiKey = \\\"e154a4f547e495edf218e2041a\\\";\\n\\tvar tweetBtn = true;\\n\u003C/script>\",\"codeinjection_foot\":\"\u003Cscript src=\\\"/assets/js/plugin/prism.js\\\">\u003C/script>\\n\u003Cscript defer type=\\\"text/javascript\\\" src=\\\"https://api.pirsch.io/pirsch.js\\\"\\nid=\\\"pirschjs\\\"\\ndata-code=\\\"vWhcy7gh61Rp6p292VnP1SdSSBiwvkij\\\">\u003C/script>\",\"navigation\":[{\"label\":\"Home\",\"url\":\"/\"},{\"label\":\"About\",\"url\":\"/about/\"},{\"label\":\"Uses\",\"url\":\"/uses/\"},{\"label\":\"Now\",\"url\":\"/now/\"}],\"secondary_navigation\":[{\"label\":\"About Brian\",\"url\":\"/about/\"},{\"label\":\"Now\",\"url\":\"/now/\"},{\"label\":\"Uses\",\"url\":\"/uses/\"}],\"meta_title\":\"brian.dev | Brian Ketelsen\",\"meta_description\":\"Brian Ketelsen is a developer advocate, keynote speaker, author, and open source practitioner.\",\"og_image\":null,\"og_title\":\"brian.dev | Brian Ketelsen\",\"og_description\":\"Brian Ketelsen is a developer advocate, keynote speaker, author, and open source practitioner.\",\"twitter_image\":\"https://brian.dev/content/images/2022/05/briandev.png\",\"twitter_title\":\"brian.dev | Brian Ketelsen\",\"twitter_description\":\"Brian Ketelsen is a developer advocate, keynote speaker, author, and open source practitioner.\",\"members_support_address\":\"noreply\",\"url\":\"https://brian.dev/\"}}"}</script><script type="application/json" sveltekit:data-type="props">{"post":{"slug":"bash-helpers-for-quick-installs","id":"62890ee8c868ac020bd685b9","uuid":"8afef3b4-d17e-4271-8924-5668be3263e0","title":"Bash Helpers for Quick Installs","html":"\u003C!--kg-card-begin: markdown-->\u003Ch2 id=\"speed-up-software-installs-with-this-bash-trick\">Speed Up Software Installs with this Bash Trick\u003C/h2>\n\u003Cp>I've created a \u003Ccode>bash\u003C/code> function that enables quick software installs without being as heavy as something like \u003Ccode>ansible\u003C/code>. The system relies on a single function in my \u003Ccode>bashrc\u003C/code> and a directory full of bash scripts. Let's dive in and see how it works.\u003C/p>\n\u003Ch3 id=\"installation-scripts\">Installation Scripts\u003C/h3>\n\u003Cp>In my dotfiles directory, which is stored at \u003Ccode>~/dotfiles\u003C/code> there's a subdirectory called \u003Ccode>install\u003C/code>. That directory contains a few dozen bash scripts that install the various software components and packages I might use. Some of them are needed on all the computers I use, some of them are used only infrequently for certain projects. Here's an example that installs Go:\u003C/p>\n\u003Cpre>\u003Ccode class=\"language-bash\">❯ go.sh\n#! /bin/bash\nset -e\nVERSION=1.15\n# Delete existing Go installation\nsudo rm -rf /usr/local/go\n# Install Go in /usr/local\nsudo mkdir -p /usr/local/go &amp;&amp; curl -Ls https://storage.googleapis.com/golang/go$VERSION.linux-amd64.tar.gz | sudo tar xvzf - -C /usr/local/go --strip-components=1\n\u003C/code>\u003C/pre>\n\u003Cp>The script declares a \u003Ccode>VERSION\u003C/code> variable so I can change the version to be installed when there's a new release of Go. Then it deletes the existing Go installation and replaces it with a freshly downloaded version. Because it deletes the existing install and replaces it, it can be run more than once with no unwanted side-effects. I've attempted to make all my scripts idempotent like this, but some of them just aren't because my bash skills are just mediocre.\u003C/p>\n\u003Ch3 id=\"installation-function\">Installation Function\u003C/h3>\n\u003Cp>To use these installation scripts I've created a bash function that searches for scripts in the \u003Ccode>~/dotfiles/install\u003C/code> folder matching the first argument of the function:\u003C/p>\n\u003Cpre>\u003Ccode class=\"language-bash\">inst() {\n\tif [ -f $HOME/dotfiles/install/$1.sh ] ; then\n\t\techo Installing $1\n\t\t. $HOME/dotfiles/install/$1.sh\n\telse\n\t\techo $1 not found\n\tfi\n}\n\u003C/code>\u003C/pre>\n\u003Cp>To install Go using this function I would type \u003Ccode>$&gt; inst go\u003C/code>, which would search for a script called \u003Ccode>~/dotfiles/install/go.sh\u003C/code> and execute it if it exists. It's not complicated, and only took a few minutes to write the function, but I'm getting a lot of ROI on the time I spend writing installation scripts. When I spin up a new VM somewhere, I can quickly clone my dotfiles and install just the bits I need for a particular task.\u003C/p>\n\u003Ch3 id=\"direnv-integration\">Direnv integration\u003C/h3>\n\u003Cp>I've been playing with \u003Ccode>direnv\u003C/code> integrations to make the installation of required tools or commands automatic when entering a project directory. I haven't found anything yet that doesn't feel too &quot;hacky&quot;, so I haven't finished this part.\u003C/p>\n\u003Ch2 id=\"future-ideas\">Future Ideas\u003C/h2>\n\u003Cp>In the future I may extend the script to search for installation scripts with an \u003Ccode>arch\u003C/code> component in the file path, like \u003Ccode>~/dotfiles/install/linux/go.sh\u003C/code> or \u003Ccode>~/dotfiles/install/macos/go.sh\u003C/code>. I don't have a need for this right now because I'm not using my Mac for development work.\u003C/p>\n\u003Cp>I may also consider making \u003Ccode>meta\u003C/code> scripts that call others. It might be similar to installing a Development metapackage, where the metapackage simply calls the other packages it wants to wrap.\u003C/p>\n\u003C!--kg-card-end: markdown-->","comment_id":"62890ee8c868ac020bd685b9","feature_image":"https://brian.dev/content/images/2022/05/4pPzKfd6BEg.jpg","featured":false,"visibility":"public","email_recipient_filter":"none","created_at":"2022-05-21T12:10:16.000-04:00","updated_at":"2022-05-21T12:12:01.000-04:00","published_at":"2020-08-14T00:00:00.000-04:00","custom_excerpt":"This bash setup is the latest evolution of my quest to make a new system install as fast as possible.","codeinjection_head":null,"codeinjection_foot":null,"custom_template":null,"canonical_url":null,"tags":[{"id":"62889299a640e2020be86e4a","name":"Linux","slug":"linux","description":"Linux","feature_image":"https://brian.dev/content/images/2022/05/Bit_Linux.png","visibility":"public","og_image":null,"og_title":null,"og_description":null,"twitter_image":null,"twitter_title":null,"twitter_description":null,"meta_title":null,"meta_description":null,"codeinjection_head":null,"codeinjection_foot":null,"canonical_url":null,"accent_color":"#012293","url":"https://brian.dev/tag/linux/"}],"authors":[{"id":"1","name":"Brian Ketelsen","slug":"brian","profile_image":"https://brian.dev/content/images/2022/05/logo-copy-1.png","cover_image":"https://brian.dev/content/images/2022/05/time-machine-1.jpg","bio":null,"website":null,"location":null,"facebook":null,"twitter":"@bketelsen","meta_title":null,"meta_description":null,"url":"https://brian.dev/author/brian/"}],"primary_author":{"id":"1","name":"Brian Ketelsen","slug":"brian","profile_image":"https://brian.dev/content/images/2022/05/logo-copy-1.png","cover_image":"https://brian.dev/content/images/2022/05/time-machine-1.jpg","bio":null,"website":null,"location":null,"facebook":null,"twitter":"@bketelsen","meta_title":null,"meta_description":null,"url":"https://brian.dev/author/brian/"},"primary_tag":{"id":"62889299a640e2020be86e4a","name":"Linux","slug":"linux","description":"Linux","feature_image":"https://brian.dev/content/images/2022/05/Bit_Linux.png","visibility":"public","og_image":null,"og_title":null,"og_description":null,"twitter_image":null,"twitter_title":null,"twitter_description":null,"meta_title":null,"meta_description":null,"codeinjection_head":null,"codeinjection_foot":null,"canonical_url":null,"accent_color":"#012293","url":"https://brian.dev/tag/linux/"},"url":"https://brian.dev/bash-helpers-for-quick-installs/","excerpt":"This bash setup is the latest evolution of my quest to make a new system install as fast as possible.","reading_time":2,"access":true,"send_email_when_published":false,"og_image":null,"og_title":null,"og_description":null,"twitter_image":null,"twitter_title":null,"twitter_description":null,"meta_title":null,"meta_description":null,"email_subject":null,"frontmatter":null}}</script></div>
+	</body>
+</html>
