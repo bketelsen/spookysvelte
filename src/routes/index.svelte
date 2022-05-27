@@ -28,7 +28,7 @@
     <PageHeader
       subtitle="Welcome to the machine"
       title="Brian Ketelsen"
-      content="some content here"
+      content="I'm a technology enthusiast focused on pushing the limits of the Internet. My greatest joy is building novel solutions to complex problems."
     />
     <div class="flex flex-wrap">
 
@@ -36,7 +36,7 @@
         description="Representing the interests of the community to internal teams. Teaching, listening, and sharing."
         url="/pages/devrel" />
       <Role title="Keynote Speaker"
-        description=""
+        description="I've given dozens of talks at conferences and meetups. See some of my talks here."
         url="/pages/speaking" />
         <Role title="Open Source Contributor"
         description="Go, Kubernetes, etcd, Krustlet, Virtual Kubelet, Neovim, SkyDNS, goa, Ponzu, Athens..."
